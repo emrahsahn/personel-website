@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "title": "Emrah Şahin | Software Engineer",
+    "description": "Portfolio of a software engineer specializing in AI, computer vision, and agentic workflows."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Emrah Şahin",
+    "title": "Software Engineer | AI & Computer Vision",
+    "subtitle": "I build scalable, production-ready AI solutions in LLMs, Generative AI, and Agentic Workflows.",
+    "ctaProjects": "View My Projects",
+    "ctaContact": "Get In Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "summary": "As a Software Engineer, I develop AI agents based on LangChain, LangGraph, and LlamaIndex. During my internship at Havelsan, I gained experience in hallucination reduction and model monitoring by benchmarking the technical and ethical performance of modern AI models. While strengthening my OOP foundation with C++ and Java, I aim to build scalable AI solutions with Python, FastAPI, and SQL.",
+    "education": {
+      "title": "Education",
+      "degree": "Software Engineering",
+      "university": "Kocaeli University of Health and Technology",
+      "period": "2022 – 2026",
+      "gpa": "GPA: 3.5",
+      "scholarship": "Full Scholarship",
+      "thesis": "TÜBİTAK 2209 Supported Thesis"
+    }
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "projects": {
+    "title": "Projects",
+    "viewGithub": "View on GitHub"
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "programming": "Programming",
+      "ai": "AI & Machine Learning",
+      "web": "Web Development",
+      "tools": "Tools"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Feel free to reach out for a project, job opportunity, or collaboration.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email",
+      "message": "Your Message",
+      "submit": "Send",
+      "success": "Message received! I'll get back to you soon."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Articles about AI, software development, and my projects.",
+    "readMore": "Read More",
+    "backToBlog": "Back to Blog",
+    "noPosts": "No blog posts yet."
+  },
+  "footer": {
+    "builtWith": "Built with Next.js",
+    "rights": "All rights reserved."
+  }
+}

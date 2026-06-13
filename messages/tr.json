@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "title": "Emrah Şahin | Yazılım Mühendisi",
+    "description": "Yapay zeka, bilgisayarlı görü ve agentic workflows alanında çalışan yazılım mühendisi portfolyosu."
+  },
+  "nav": {
+    "about": "Hakkımda",
+    "experience": "Deneyim",
+    "projects": "Projeler",
+    "skills": "Beceriler",
+    "contact": "İletişim",
+    "blog": "Blog"
+  },
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "name": "Emrah Şahin",
+    "title": "Yazılım Mühendisi | AI & Computer Vision",
+    "subtitle": "LLM, Generative AI ve Agentic Workflows alanında ölçeklenebilir, üretime hazır yapay zeka çözümleri geliştiriyorum.",
+    "ctaProjects": "Projelerimi Gör",
+    "ctaContact": "İletişime Geç"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "summary": "Yazılım Mühendisi olarak LangChain, LangGraph ve LlamaIndex tabanlı AI ajanları geliştiriyorum. Havelsan stajımda modern yapay zeka modellerinin teknik ve etik performans ölçümünü yürüterek halüsinasyon azaltma ve model izleme konularında deneyim kazandım. C++ ve Java ile OOP altyapımı güçlendirirken, Python, FastAPI ve SQL yetkinliklerimle ölçeklenebilir AI çözümleri geliştirmeyi hedefliyorum.",
+    "education": {
+      "title": "Eğitim",
+      "degree": "Yazılım Mühendisliği",
+      "university": "Kocaeli Sağlık ve Teknoloji Üniversitesi",
+      "period": "2022 – 2026",
+      "gpa": "GPA: 3.5",
+      "scholarship": "Tam Burslu",
+      "thesis": "TÜBİTAK 2209 Destekli Tez"
+    }
+  },
+  "experience": {
+    "title": "Deneyim"
+  },
+  "projects": {
+    "title": "Projeler",
+    "viewGithub": "GitHub'da Gör"
+  },
+  "skills": {
+    "title": "Beceriler",
+    "categories": {
+      "programming": "Programlama",
+      "ai": "AI & Machine Learning",
+      "web": "Web Geliştirme",
+      "tools": "Araçlar"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bir proje, iş fırsatı veya iş birliği için benimle iletişime geçebilirsiniz.",
+    "form": {
+      "name": "Adınız",
+      "email": "E-posta",
+      "message": "Mesajınız",
+      "submit": "Gönder",
+      "success": "Mesajınız alındı! En kısa sürede dönüş yapacağım."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Yapay zeka, yazılım geliştirme ve projelerim hakkında yazılar.",
+    "readMore": "Devamını Oku",
+    "backToBlog": "Blog'a Dön",
+    "noPosts": "Henüz blog yazısı yok."
+  },
+  "footer": {
+    "builtWith": "Next.js ile yapıldı",
+    "rights": "Tüm hakları saklıdır."
+  }
+}
