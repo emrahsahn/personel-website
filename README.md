@@ -34,8 +34,8 @@ Bilingual personal portfolio website built with Next.js. Showcases projects, exp
 ### Installation
 
 ```bash
-git clone https://github.com/emrahsahn/github_own_website.git
-cd github_own_website
+git clone https://github.com/emrahsahn/my-website.git
+cd my-website
 npm install
 ```
 
