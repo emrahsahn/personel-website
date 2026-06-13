@@ -63,6 +63,7 @@
     "title": "Blog",
     "subtitle": "Articles about AI, software development, and my projects.",
     "readMore": "Read More",
+    "readOnMedium": "Read on Medium",
     "backToBlog": "Back to Blog",
     "noPosts": "No blog posts yet."
   },

@@ -7,6 +7,8 @@ interface BlogCardProps {
   description: string;
   date: string;
   readMoreText: string;
+  externalUrl?: string;
+  readOnMediumText?: string;
 }
 
 export default function BlogCard({
@@ -15,9 +17,10 @@ export default function BlogCard({
   description,
   date,
   readMoreText,
+  externalUrl,
+  readOnMediumText,
 }: BlogCardProps) {
-  return (
-    <Link href={`/blog/${slug}`}>
+  const article = (
       <article className="glass rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 group h-full flex flex-col">
         <div className="flex items-center gap-2 text-white/40 text-sm mb-3">
           <Calendar size={14} />
@@ -39,9 +42,18 @@ export default function BlogCard({
         </p>
 
         <span className="text-accent-purple text-sm font-medium group-hover:text-accent-pink transition-colors">
-          {readMoreText} →
+          {externalUrl && readOnMediumText ? readOnMediumText : readMoreText} →
         </span>
       </article>
-    </Link>
   );
+
+  if (externalUrl) {
+    return (
+      <a href={externalUrl} target="_blank" rel="noopener noreferrer">
+        {article}
+      </a>
+    );
+  }
+
+  return <Link href={`/blog/${slug}`}>{article}</Link>;
 }

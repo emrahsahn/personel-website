@@ -112,6 +112,7 @@ export const projects: ProjectItem[] = [
       "Tailwind CSS",
     ],
     period: "Feb 2026 – Apr 2026",
+    github: "https://github.com/emrahsahn/Harcama-Takip",
   },
   {
     title: {
@@ -161,6 +162,70 @@ export const projects: ProjectItem[] = [
     technologies: ["Python", "TensorFlow", "Keras", "OpenCV"],
     github:
       "https://github.com/emrahsahn/Yapay-Zeka-Destekli-Goruntu-Siniflandirma-Projesi",
+  },
+  {
+    title: {
+      tr: "Kurbanlık Hayvan Takip Sistemi",
+      en: "Sacrifice Livestock Tracker",
+    },
+    description: {
+      tr: "Kurbanlık hayvan kayıt, takip ve yönetim süreçlerini dijitalleştiren TypeScript tabanlı web uygulaması.",
+      en: "TypeScript-based web application that digitizes sacrifice livestock registration, tracking, and management workflows.",
+    },
+    technologies: ["TypeScript", "Next.js", "React", "Tailwind CSS"],
+    period: "2026",
+    github: "https://github.com/emrahsahn/Sacrifice-Livestock-Tracker",
+  },
+  {
+    title: {
+      tr: "Proje Yönetimi için Agent Sistemi",
+      en: "Agent System for Projects",
+    },
+    description: {
+      tr: "Yazılım projelerinde görev planlama ve otomasyon için tasarlanmış AI agent tabanlı yönetim sistemi.",
+      en: "AI agent-based management system designed for task planning and automation in software projects.",
+    },
+    technologies: ["HTML", "JavaScript", "AI Agents", "LangChain"],
+    period: "2026",
+    github: "https://github.com/emrahsahn/Agent-System-for-Projects",
+  },
+  {
+    title: {
+      tr: "Ensemble Learning Deneyleri",
+      en: "Ensemble Learning Experiments",
+    },
+    description: {
+      tr: "Kendi oluşturulan veri setlerinde çeşitli ensemble learning algoritmalarının uygulanması ve karşılaştırılması.",
+      en: "Application and comparison of various ensemble learning algorithms on custom-built datasets.",
+    },
+    technologies: ["Python", "Scikit-learn", "Pandas", "Machine Learning"],
+    period: "2026",
+    github: "https://github.com/emrahsahn/Ensemble-Learning",
+  },
+  {
+    title: {
+      tr: "E-Ticaret Web Sitesi",
+      en: "E-Commerce Website",
+    },
+    description: {
+      tr: "Ürün listeleme, sepet yönetimi ve kullanıcı arayüzü içeren tam kapsamlı e-ticaret web uygulaması.",
+      en: "Full-featured e-commerce web application with product listing, cart management, and user interface.",
+    },
+    technologies: ["JavaScript", "HTML", "CSS", "Web Development"],
+    github: "https://github.com/emrahsahn/E-Commerce-Website",
+  },
+  {
+    title: {
+      tr: "SQL Veri Ambarı Projesi",
+      en: "SQL Data Warehouse Project",
+    },
+    description: {
+      tr: "Veri ambalama, ETL süreçleri ve analitik sorgular için tasarlanmış SQL tabanlı veri ambarı projesi.",
+      en: "SQL-based data warehouse project designed for data modeling, ETL processes, and analytical queries.",
+    },
+    technologies: ["SQL", "Data Modeling", "ETL", "Database Design"],
+    period: "2026",
+    github: "https://github.com/emrahsahn/sql_data_warehouse_project",
   },
 ];
 

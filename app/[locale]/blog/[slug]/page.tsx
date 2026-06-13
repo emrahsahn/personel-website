@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 import { ArrowLeft, Calendar } from "lucide-react";
@@ -36,6 +36,10 @@ export default async function BlogPostPage({ params }: Props) {
 
   if (!post) {
     notFound();
+  }
+
+  if (post.externalUrl) {
+    redirect(post.externalUrl);
   }
 
   return (

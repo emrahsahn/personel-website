@@ -8,10 +8,10 @@ export const siteConfig = {
 };
 
 export const navLinks = [
-  { key: "about", href: "#about" },
-  { key: "experience", href: "#experience" },
-  { key: "projects", href: "#projects" },
-  { key: "skills", href: "#skills" },
-  { key: "contact", href: "#contact" },
+  { key: "about", href: "/#about" },
+  { key: "experience", href: "/#experience" },
+  { key: "projects", href: "/#projects" },
+  { key: "skills", href: "/#skills" },
+  { key: "contact", href: "/#contact" },
   { key: "blog", href: "/blog" },
 ] as const;

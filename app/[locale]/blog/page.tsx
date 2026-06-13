@@ -37,6 +37,8 @@ export default async function BlogPage({ params }: Props) {
               description={post.description}
               date={post.date}
               readMoreText={t("readMore")}
+              externalUrl={post.externalUrl}
+              readOnMediumText={t("readOnMedium")}
             />
           ))}
         </div>

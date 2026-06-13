@@ -11,6 +11,7 @@ export interface BlogPost {
   date: string;
   locale: string;
   content: string;
+  externalUrl?: string;
 }
 
 function getLocaleBlogDir(locale: string): string {
@@ -40,6 +41,7 @@ export function getBlogPosts(locale: string): BlogPost[] {
         date: data.date as string,
         locale,
         content,
+        externalUrl: data.externalUrl as string | undefined,
       };
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -65,6 +67,7 @@ export function getBlogPost(slug: string, locale: string): BlogPost | null {
     date: data.date as string,
     locale,
     content,
+    externalUrl: data.externalUrl as string | undefined,
   };
 }
 

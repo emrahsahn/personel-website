@@ -37,27 +37,16 @@ export default function Navbar() {
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) =>
-              link.href.startsWith("#") ? (
-                <a
-                  key={link.key}
-                  href={link.href}
-                  className="text-sm text-white/70 hover:text-white transition-colors relative group"
-                >
-                  {t(link.key)}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-accent-purple to-accent-orange group-hover:w-full transition-all duration-300" />
-                </a>
-              ) : (
-                <Link
-                  key={link.key}
-                  href={link.href}
-                  className="text-sm text-white/70 hover:text-white transition-colors relative group"
-                >
-                  {t(link.key)}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-accent-purple to-accent-orange group-hover:w-full transition-all duration-300" />
-                </Link>
-              )
-            )}
+            {navLinks.map((link) => (
+              <Link
+                key={link.key}
+                href={link.href}
+                className="text-sm text-white/70 hover:text-white transition-colors relative group"
+              >
+                {t(link.key)}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-accent-purple to-accent-orange group-hover:w-full transition-all duration-300" />
+              </Link>
+            ))}
           </div>
 
           <div className="hidden md:block">
@@ -79,27 +68,16 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden glass border-t border-white/10">
           <div className="px-4 py-4 space-y-3">
-            {navLinks.map((link) =>
-              link.href.startsWith("#") ? (
-                <a
-                  key={link.key}
-                  href={link.href}
-                  onClick={() => setIsOpen(false)}
-                  className="block text-white/70 hover:text-white transition-colors py-2"
-                >
-                  {t(link.key)}
-                </a>
-              ) : (
-                <Link
-                  key={link.key}
-                  href={link.href}
-                  onClick={() => setIsOpen(false)}
-                  className="block text-white/70 hover:text-white transition-colors py-2"
-                >
-                  {t(link.key)}
-                </Link>
-              )
-            )}
+            {navLinks.map((link) => (
+              <Link
+                key={link.key}
+                href={link.href}
+                onClick={() => setIsOpen(false)}
+                className="block text-white/70 hover:text-white transition-colors py-2"
+              >
+                {t(link.key)}
+              </Link>
+            ))}
             <div className="pt-2">
               <LanguageSwitcher />
             </div>

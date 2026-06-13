@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing";
 import { siteConfig } from "@/lib/site-config";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import HashScrollHandler from "@/components/HashScrollHandler";
 
 type Props = {
   children: React.ReactNode;
@@ -60,9 +61,12 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
+      <div className="flex min-h-screen flex-col">
+        <HashScrollHandler />
+        <Navbar />
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </div>
     </NextIntlClientProvider>
   );
 }
