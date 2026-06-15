@@ -165,8 +165,8 @@ export const projects: ProjectItem[] = [
   },
   {
     title: {
-      tr: "Kurbanlık Hayvan Takip Sistemi",
-      en: "Sacrifice Livestock Tracker",
+      tr: "Kurban Yönetim Sistemi",
+      en: "Livestock Management System",
     },
     description: {
       tr: "Kurbanlık hayvan kayıt, takip ve yönetim süreçlerini dijitalleştiren TypeScript tabanlı web uygulaması.",

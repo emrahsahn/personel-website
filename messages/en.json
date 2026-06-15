@@ -37,7 +37,9 @@
   },
   "projects": {
     "title": "Projects",
-    "viewGithub": "View on GitHub"
+    "viewGithub": "View on GitHub",
+    "showMore": "Show more",
+    "showLess": "Show less"
   },
   "skills": {
     "title": "Skills",

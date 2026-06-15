@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
@@ -10,13 +11,15 @@ import SectionTitle from "./SectionTitle";
 export default function Projects() {
   const t = useTranslations("projects");
   const locale = useLocale() as "tr" | "en";
+  const [showAll, setShowAll] = useState(false);
+  const visibleProjects = showAll ? projects : projects.slice(0, 3);
 
   return (
     <SectionWrapper id="projects">
       <SectionTitle title={t("title")} />
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map((project, index) => (
+        {visibleProjects.map((project, index) => (
           <motion.div
             key={project.title.en}
             initial={{ opacity: 0, y: 30 }}
@@ -65,6 +68,17 @@ export default function Projects() {
           </motion.div>
         ))}
       </div>
+
+      {projects.length > 3 && (
+        <div className="mt-6 flex justify-center">
+          <button
+            onClick={() => setShowAll((s) => !s)}
+            className="px-4 py-2 rounded-full bg-accent-purple text-white hover:bg-accent-pink transition-colors"
+          >
+            {showAll ? t("showLess") : t("showMore")}
+          </button>
+        </div>
+      )}
     </SectionWrapper>
   );
 }

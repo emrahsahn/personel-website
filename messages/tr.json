@@ -37,7 +37,9 @@
   },
   "projects": {
     "title": "Projeler",
-    "viewGithub": "GitHub'da Gör"
+    "viewGithub": "GitHub'da Gör",
+    "showMore": "Daha fazla göster",
+    "showLess": "Daha az göster"
   },
   "skills": {
     "title": "Beceriler",
