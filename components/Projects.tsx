@@ -53,18 +53,30 @@ export default function Projects() {
               ))}
             </div>
 
-            {project.github && (
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm text-accent-purple hover:text-accent-pink transition-colors mt-auto"
-              >
-                <Github size={16} />
-                {t("viewGithub")}
-                <ExternalLink size={14} />
-              </a>
-            )}
+            <div className="mt-auto flex flex-wrap gap-4">
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-accent-purple hover:text-accent-pink transition-colors"
+                >
+                  <Github size={16} />
+                  {t("viewGithub")}
+                </a>
+              )}
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-accent-purple hover:text-accent-pink transition-colors"
+                >
+                  <ExternalLink size={16} />
+                  {t("viewProject")}
+                </a>
+              )}
+            </div>
           </motion.div>
         ))}
       </div>

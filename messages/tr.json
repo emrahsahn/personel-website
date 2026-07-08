@@ -38,6 +38,7 @@
   "projects": {
     "title": "Projeler",
     "viewGithub": "GitHub'da Gör",
+    "viewProject": "Projeyi Gör",
     "showMore": "Daha fazla göster",
     "showLess": "Daha az göster"
   },

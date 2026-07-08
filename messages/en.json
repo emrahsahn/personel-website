@@ -38,6 +38,7 @@
   "projects": {
     "title": "Projects",
     "viewGithub": "View on GitHub",
+    "viewProject": "View Project",
     "showMore": "Show more",
     "showLess": "Show less"
   },

@@ -78,6 +78,7 @@ export interface ProjectItem {
   description: { tr: string; en: string };
   technologies: string[];
   github?: string;
+  link?: string;
   period?: string;
 }
 
@@ -128,6 +129,32 @@ export const projects: ProjectItem[] = [
   },
   {
     title: {
+      tr: "Lord of Polymorphism",
+      en: "Lord of Polymorphism",
+    },
+    description: {
+      tr: "Nesne yönelimli programlama ve polimorfizm konseptlerini temel alan oyun projesi.",
+      en: "A game project based on object-oriented programming and polymorphism concepts.",
+    },
+    technologies: ["OOP", "Game Development", "Polymorphism"],
+    github: "https://github.com/emrahsahn/lord-of-polymorphism",
+    link: "https://lords-of-the-polywarphism-game.vercel.app",
+  },
+  {
+    title: {
+      tr: "Kurban Yönetim Sistemi",
+      en: "Livestock Management System",
+    },
+    description: {
+      tr: "Kurbanlık hayvan kayıt, takip ve yönetim süreçlerini dijitalleştiren TypeScript tabanlı web uygulaması.",
+      en: "TypeScript-based web application that digitizes sacrifice livestock registration, tracking, and management workflows.",
+    },
+    technologies: ["TypeScript", "Next.js", "React", "Tailwind CSS"],
+    period: "2026",
+    github: "https://github.com/emrahsahn/Sacrifice-Livestock-Tracker",
+  },
+  {
+    title: {
       tr: "Meme Kanseri Sınıflandırma Sistemi",
       en: "Breast Cancer Classification System",
     },
@@ -162,19 +189,6 @@ export const projects: ProjectItem[] = [
     technologies: ["Python", "TensorFlow", "Keras", "OpenCV"],
     github:
       "https://github.com/emrahsahn/Yapay-Zeka-Destekli-Goruntu-Siniflandirma-Projesi",
-  },
-  {
-    title: {
-      tr: "Kurban Yönetim Sistemi",
-      en: "Livestock Management System",
-    },
-    description: {
-      tr: "Kurbanlık hayvan kayıt, takip ve yönetim süreçlerini dijitalleştiren TypeScript tabanlı web uygulaması.",
-      en: "TypeScript-based web application that digitizes sacrifice livestock registration, tracking, and management workflows.",
-    },
-    technologies: ["TypeScript", "Next.js", "React", "Tailwind CSS"],
-    period: "2026",
-    github: "https://github.com/emrahsahn/Sacrifice-Livestock-Tracker",
   },
   {
     title: {
@@ -226,18 +240,6 @@ export const projects: ProjectItem[] = [
     technologies: ["SQL", "Data Modeling", "ETL", "Database Design"],
     period: "2026",
     github: "https://github.com/emrahsahn/sql_data_warehouse_project",
-  },
-  {
-    title: {
-      tr: "Lord of Polymorphism",
-      en: "Lord of Polymorphism",
-    },
-    description: {
-      tr: "Nesne yönelimli programlama ve polimorfizm konseptlerini temel alan oyun projesi.",
-      en: "A game project based on object-oriented programming and polymorphism concepts.",
-    },
-    technologies: ["OOP", "Game Development", "Polymorphism"],
-    github: "https://github.com/emrahsahn/lord-of-polymorphism",
   },
 ];
 
