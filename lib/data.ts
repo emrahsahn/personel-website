@@ -227,6 +227,18 @@ export const projects: ProjectItem[] = [
     period: "2026",
     github: "https://github.com/emrahsahn/sql_data_warehouse_project",
   },
+  {
+    title: {
+      tr: "Lord of Polymorphism",
+      en: "Lord of Polymorphism",
+    },
+    description: {
+      tr: "Nesne yönelimli programlama ve polimorfizm konseptlerini temel alan oyun projesi.",
+      en: "A game project based on object-oriented programming and polymorphism concepts.",
+    },
+    technologies: ["OOP", "Game Development", "Polymorphism"],
+    github: "https://github.com/emrahsahn/lord-of-polymorphism",
+  },
 ];
 
 export const skillCategories = [
